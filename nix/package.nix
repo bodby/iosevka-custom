@@ -9,13 +9,13 @@
 
 buildNpmPackage rec {
   inherit pname;
-  version = "32.3.0";
+  version = "32.5.0";
 
   src = fetchFromGitHub {
     owner = "be5invis";
     repo = "Iosevka";
-    rev = "6f207f827dd957b64f249ba3877803afe8bcbd3c";
-    sha256 = "sha256-wK2UlDMV284wU7Tis8uOt1aC+ik/hBQbA9oQbKtcxDA=";
+    rev = "7b39833e2774d3234b92501544016617ad158588";
+    sha256 = "sha256-MzsAkq5l4TP19UJNPW/8hvIqsJd94pADrrv8wLG6NMQ=";
   };
 
   # "package-lock.json" = builtins.readFile ../package-lock.json;
