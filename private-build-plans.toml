@@ -1,75 +1,73 @@
 [buildPlans.IosevkaCustom]
-family = "IosevkaCustom"
+family = "Iosevka Custom"
 spacing = "term"
 serifs = "sans"
 noCvSs = true
 exportGlyphNames = false
 
-  [buildPlans.IosevkaCustom.variants]
-  inherits = "ss18"
+[buildPlans.IosevkaCustom.variants.design]
+one = "base"
+two = "straight-neck-serifless"
+three = "flat-top-serifless"
+four = "semi-open-non-crossing-serifless"
+five = "upright-flat-serifless"
+six = "straight-bar"
+seven = "straight-serifless"
+eight = "two-circles"
+nine = "straight-bar"
+zero = "dotted"
+capital-b = "standard-serifless"
+capital-g = "toothless-rounded-serifless-hooked"
+capital-i = "serifed"
+capital-j = "serifed"
+capital-k = "symmetric-connected-serifless"
+capital-q = "straight"
+capital-w = "straight-serifless"
+capital-y = "straight-serifless"
+a = "double-storey-toothless-corner"
+b = "toothless-corner-serifless"
+d = "toothless-corner-serifless"
+e = "flat-crossbar"
+f = "flat-hook-serifless"
+g = "single-storey-earless-corner"
+j = "flat-hook-serifed"
+k = "straight-serifless"
+l = "serifed"
+m = "earless-corner-double-arch-short-leg-serifless"
+n = "earless-corner-straight-serifless"
+p = "earless-corner-serifless"
+q = "earless-corner-straight-serifless"
+r = "serifed"
+t = "flat-hook"
+tittle = "round"
+diacritic-dot = "round"
+punctuation-dot = "round"
+braille-dot = "round"
+tilde = "low"
+asterisk = "penta-mid"
+underscore = "above-baseline"
+paren = "normal"
+brace = "straight"
+guillemet = "straight"
+number-sign = "slanted-open"
+ampersand = "upper-open"
+at = "threefold-solid-inner"
+dollar = "slanted-through"
+percent = "rings-segmented-slash"
+question = "corner-flat-hooked"
+lig-ltgteq = "slanted"
+lig-neq = "slightly-slanted"
+lig-equal-chain = "with-notch"
+lig-hyphen-chain = "with-notch"
+lig-plus-chain = "without-notch"
+lig-double-arrow-bar = "with-notch"
+lig-single-arrow-bar = "with-notch"
 
-    [buildPlans.IosevkaCustom.variants.design]
-    three = "flat-top-serifless"
-    four = "semi-open-non-crossing-serifless"
-    six = "straight-bar"
-    seven = "straight-serifless"
-    nine = "straight-bar"
-    capital-d = "more-rounded-serifless"
-    capital-g = "toothless-corner-serifless-hooked"
-    capital-q = "straight"
-    d = "toothless-corner-serifless"
-    f = "flat-hook-serifless-crossbar-at-x-height"
-    g = "single-storey-earless-corner"
-    j = "flat-hook-serifed"
-    k = "straight-serifless"
-    l = "serifed-flat-tailed"
-    m = "short-leg-serifless"
-    p = "earless-corner-serifless"
-    t = "flat-hook-short-neck"
-    v = "straight-serifless"
-    lower-eth = "straight-bar"
-    lower-alpha = "crossing"
-    capital-lambda = "straight-serifless"
-    lower-lambda = "straight-turn"
-    lower-mu = "tailed-serifless"
-    cyrl-a = "single-storey-earless-corner-serifless"
-    cyrl-ve = "standard-serifless"
-    cyrl-capital-ka = "symmetric-connected-serifed"
-    cyrl-ka = "symmetric-connected-serifed"
-    cyrl-em = "flat-bottom-serifed"
-    cyrl-capital-en = "serifed"
-    cyrl-en = "serifed"
-    cyrl-capital-er = "closed-serifless"
-    cyrl-er = "earless-corner-serifless"
-    asterisk = "penta-low"
-    number-sign = "slanted-open"
-    ampersand = "upper-open"
-    question = "corner-flat-hooked"
-    lig-ltgteq = "slanted"
-    lig-neq = "slightly-slanted"
-    lig-equal-chain = "without-notch"
-    lig-hyphen-chain = "without-notch"
-
-    [buildPlans.IosevkaCustom.variants.italic]
-    e = "flat-crossbar"
-    f = "flat-hook-extended-crossbar-at-x-height"
-    k = "cursive-serifless"
-
-  [buildPlans.IosevkaCustom.ligations]
-  inherits = "dlig"
-
-[buildPlans.IosevkaCustom.weights.Regular]
-shape = 400
-menu = 400
-css = 400
-
-[buildPlans.IosevkaCustom.weights.ExtraBold]
-shape = 800
-menu = 800
-css = 800
+[buildPlans.IosevkaCustom.ligations]
+inherits = "dlig"
 
 [buildPlans.IosevkaCustom.widths.Normal]
-shape = 548
+shape = 600
 menu = 5
 css = "normal"
 
