@@ -24,21 +24,67 @@ capital-k = "symmetric-connected-serifless"
 capital-q = "straight"
 capital-w = "straight-serifless"
 capital-y = "straight-serifless"
-a = "double-storey-toothless-corner"
-b = "toothless-corner-serifless"
-d = "toothless-corner-serifless"
+a = "double-storey-serifless"
+b = "toothed-serifless"
+d = "toothed-serifless"
 e = "flat-crossbar"
 f = "flat-hook-serifless"
-g = "single-storey-earless-corner"
+g = "single-storey-flat-hook-serifless"
+i = "serifed"
 j = "flat-hook-serifed"
 k = "straight-serifless"
 l = "serifed"
-m = "earless-corner-double-arch-short-leg-serifless"
-n = "earless-corner-straight-serifless"
-p = "earless-corner-serifless"
-q = "earless-corner-straight-serifless"
-r = "serifed"
+m = "short-leg-serifless"
+n = "straight-serifless"
+p = "eared-serifless"
+q = "straight-serifless"
 t = "flat-hook"
+tittle = "round"
+diacritic-dot = "round"
+punctuation-dot = "round"
+braille-dot = "round"
+tilde = "low"
+asterisk = "penta-mid"
+underscore = "above-baseline"
+paren = "normal"
+brace = "straight"
+guillemet = "straight"
+number-sign = "slanted-open"
+ampersand = "upper-open"
+at = "threefold"
+dollar = "slanted-through"
+percent = "rings-segmented-slash"
+question = "corner-flat-hooked"
+lig-ltgteq = "slanted"
+lig-neq = "slightly-slanted"
+lig-equal-chain = "without-notch"
+lig-hyphen-chain = "without-notch"
+lig-plus-chain = "without-notch"
+lig-double-arrow-bar = "without-notch"
+lig-single-arrow-bar = "without-notch"
+
+[buildPlans.IosevkaCustom.variants.italic]
+one = "base"
+two = "straight-neck-serifless"
+three = "flat-top-serifless"
+four = "semi-open-non-crossing-serifless"
+five = "upright-flat-serifless"
+six = "straight-bar"
+seven = "straight-serifless"
+eight = "two-circles"
+nine = "straight-bar"
+zero = "dotted"
+capital-b = "standard-serifless"
+capital-g = "toothless-rounded-serifless-hooked"
+capital-i = "serifed"
+capital-j = "serifed"
+capital-k = "symmetric-connected-serifless"
+capital-q = "straight"
+capital-w = "straight-serifless"
+capital-y = "straight-serifless"
+a = "single-storey-tailed"
+f = "flat-hook-extended"
+i = "serifed"
 tittle = "round"
 diacritic-dot = "round"
 punctuation-dot = "round"
@@ -55,16 +101,37 @@ at = "threefold-solid-inner"
 dollar = "slanted-through"
 percent = "rings-segmented-slash"
 question = "corner-flat-hooked"
+decorative-angle-brackets = "middle"
 lig-ltgteq = "slanted"
 lig-neq = "slightly-slanted"
-lig-equal-chain = "with-notch"
-lig-hyphen-chain = "with-notch"
+lig-equal-chain = "without-notch"
+lig-hyphen-chain = "without-notch"
 lig-plus-chain = "without-notch"
-lig-double-arrow-bar = "with-notch"
-lig-single-arrow-bar = "with-notch"
+lig-double-arrow-bar = "without-notch"
+lig-single-arrow-bar = "without-notch"
 
-[buildPlans.IosevkaCustom.ligations]
-inherits = "dlig"
+  [buildPlans.IosevkaCustom.ligations]
+  inherits = "dlig"
+
+[buildPlans.IosevkaCustom.weights.Thin]
+shape = 100
+menu = 100
+css = 100
+
+[buildPlans.IosevkaCustom.weights.Regular]
+shape = 400
+menu = 400
+css = 400
+
+[buildPlans.IosevkaCustom.weights.Medium]
+shape = 500
+menu = 500
+css = 500
+
+[buildPlans.IosevkaCustom.weights.Bold]
+shape = 900
+menu = 900
+css = 700
 
 [buildPlans.IosevkaCustom.widths.Normal]
 shape = 600
